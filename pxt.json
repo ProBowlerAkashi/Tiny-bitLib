@@ -13,10 +13,19 @@
         "main.ts",
         "_locales/zh-cn/Tinybit-strings.json",
         "_locales/zh-tw/Tinybit-strings.json",
-        "_locales/fr/Tinybit-strings.json"
+        "_locales/fr/Tinybit-strings.json",
+        "_locales/ja/Tinybit-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "public": true,
+    "targetVersions": {
+        "target": "6.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
